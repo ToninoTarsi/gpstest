@@ -110,9 +110,9 @@ public class GpsTestActivity extends TabActivity
                 .setIndicator(res.getString(R.string.gps_status_tab))
                 .setContent(new Intent(this, GpsStatusActivity.class)));
 
-        tabHost.addTab(tabHost.newTabSpec("tab2")
-                .setIndicator(res.getString(R.string.gps_map_tab))
-                .setContent(new Intent(this, GpsMapActivity.class)));
+ //       tabHost.addTab(tabHost.newTabSpec("tab2")
+ //               .setIndicator(res.getString(R.string.gps_map_tab))
+ //               .setContent(new Intent(this, GpsMapActivity.class)));
 
         tabHost.addTab(tabHost.newTabSpec("tab3")
                 .setIndicator(res.getString(R.string.gps_sky_tab))

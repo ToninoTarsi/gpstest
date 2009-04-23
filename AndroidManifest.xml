@@ -26,7 +26,7 @@
     <application android:label="@string/app_name"
             android:icon="@drawable/gpstest_icon">
 
-        <uses-library android:name="com.google.android.maps" />
+<!--        <uses-library android:name="com.google.android.maps" /> -->
 
         <activity android:name=".GpsTestActivity">
             <intent-filter>
@@ -37,7 +37,7 @@
 
         <!-- subactivities of GpsTestActivity -->
         <activity android:name="GpsStatusActivity" />
-        <activity android:name="GpsMapActivity" />
+<!--        <activity android:name="GpsMapActivity" /> -->
         <activity android:name="GpsSkyActivity" />
 
     </application>

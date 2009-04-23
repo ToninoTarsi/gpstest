@@ -24,6 +24,9 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 
+class GpsMapActivity {}
+
+/*
 import com.google.android.maps.MapActivity;
 import com.google.android.maps.MapView;
 import com.google.android.maps.MyLocationOverlay;
@@ -147,3 +150,4 @@ public class GpsMapActivity extends MapActivity
         return GpsTestActivity.getInstance().optionsItemSelected(item);
     }
 }
+*/
